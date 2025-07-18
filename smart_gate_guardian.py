@@ -7,15 +7,15 @@ import requests
 import time
 
 # Twilio setup (replace with your actual credentials)
-TWILIO_SID = "AC577aecc05015733e7d768264c42489a1"
-TWILIO_AUTH_TOKEN = "aa2649c978e0c4672c1ef41e5a410c98"
-TWILIO_PHONE_FROM = "+14134304950"
-TWILIO_PHONE_TO = "+919440782022"
+TWILIO_SID = "Twilio sid"
+TWILIO_AUTH_TOKEN = "Twilo_auth_token"
+TWILIO_PHONE_FROM = "+1413430267"
+TWILIO_PHONE_TO = "Mobile number"
 
 
 
 # ESP8266 IP address
-ESP8266_IP = "http://192.168.21.47"
+ESP8266_IP = "device's ip address"
 
 client = Client(TWILIO_SID, TWILIO_AUTH_TOKEN)
 
